@@ -1,0 +1,89 @@
+
+body, h1, form, input, label, select, sub {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+.login {
+    background: light papayawhip;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.logo {
+    width: 100px; 
+    margin-bottom: 20px;
+}
+
+.login-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color:lightblue;
+}
+
+.login-box sub {
+    display: block;
+    font-size: 14px;
+    color: #777;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: lightslategray;
+}
+
+input[type="email"],
+input[type="text"],
+select {
+    padding: 10px;
+    border: 1px solid lightgoldenrodyellow;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+input[type="submit"] {
+    background-color: lightseagreen;
+    color: lightyellow;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: lightseagreen;
+}
