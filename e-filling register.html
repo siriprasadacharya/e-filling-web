@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Page</title>
+    <link rel="stylesheet" href="e-filling register.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="IT_department_launches_new_efiling_portal.webp" alt="Logo" class="logo">
+        </header>
+        <main>
+            <div class="form-container">
+                <h1>Register</h1>
+                <form action="submit-registration" method="POST">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                    
+                    <label for="pan">PAN Number:</label>
+                    <input type="text" id="pan" name="pan" required>
+                    
+                    <label for="dob">Date of Birth:</label>
+                    <input type="date" id="dob" name="dob" required>
+                    
+                    <label for="gender">Gender:</label>
+                    <select id="gender" name="gender" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                    
+                    <button type="submit">Register</button>
+                </form>
+                <a href="login.html" class="login-link">Already have an account? Log in</a>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

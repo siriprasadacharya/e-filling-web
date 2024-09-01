@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="top"> <img src="download.jpeg" alt="" class="ooo"></div>
+    <div class="container">
+        <header>
+            <img src="download copy.jpeg" alt="Logo" class="logo">
+        </header>
+        <main>
+            <h1 class="headline">Login to Your Account</h1>
+            <form action="/login" method="post" class="login-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="pan">PAN:</label>
+                <input type="text" id="pan" name="pan"pattern= "[A-Z]{3}[P/L/H/N/O]{1}[a-z]{1}[0-9]{4}[A-Z]{1}" maxlength="10"  title="Pan must be in the formate XXXXPX8945X">
+                       
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" maxlength="10" required 
+                       pattern="[A-Z]{3}[P/L/H/N/O]{1}[a-z]{1}[0-9]{4}[A-Z]{1}"
+                       title="Password must be up to 10 characters with Sbchw`!@">
+             
+    
+
+                <button type="submit" class="login-button"  >Login </button>
+
+                <p class="signup-link">Don't have an account? <a href="e-filling register.html">Create a new account</a></p>
+            </form>
+        </main>
+    </div>
+</body>
+</html>
